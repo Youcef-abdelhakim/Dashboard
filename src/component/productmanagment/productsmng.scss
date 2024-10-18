@@ -56,3 +56,23 @@
     border-radius: 5px;
     border: 1px solid black;
 }
+.button{
+    padding: 1%;
+    font-weight: map-get($fonweight, ultra-max );
+    font-size: map-get($fontsize, xm );
+    color: white;
+    background-color: black;
+    border: none;
+    transition: all .6s ease;
+}
+.button:hover{
+    background: map-get($color, minty-green );
+    color: map-get($color, lilac-gray);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 6px map-get($color, sea-green );
+}
+.subbut{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

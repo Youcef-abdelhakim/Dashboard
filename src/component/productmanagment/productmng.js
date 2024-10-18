@@ -46,9 +46,26 @@ const Productsmng = () => {
                         <input  type="file" placeholder="Product Picture" id="productpicture" />
                    </span>
 
-                   <span>
-                        <button>Add Product</button>
+                   <span className="subbut">
+                        <button className="button">Add Product</button>
                    </span>
+                </form>
+            </div>
+
+            <div className="title">
+                <h1>
+                    <span>Add</span> Category
+                </h1>
+            </div>
+            <div className="form">
+                <form>
+                    <span>
+                        <label htmlFor="cat">Category</label>
+                        <input type="text" placeholder="New Category" name="category" id="cat"/>
+                    </span>
+                    <span className="subbut">
+                        <button className="button">Add Category</button>
+                    </span>
                 </form>
             </div>
             
