@@ -33,7 +33,7 @@ const Productsmng = () => {
 
                     <span>
                         <label htmlFor="productbrand">Product state</label>
-                        <input  type="number" placeholder="Product State" id="productstate" name="number" />
+                        <input  type="number" placeholder="Product State" id="productstate" name="Quantity" />
                    </span>
 
                     <span>
@@ -51,7 +51,7 @@ const Productsmng = () => {
                    </span>
                 </form>
             </div>
-            <img src="http://localhost:8000/uploads\\1728492784097-pic2.jpg"/>
+            
         </section>
     )
 }
