@@ -1,6 +1,8 @@
 @import './root.scss';
-@import '../component/welcomadm.scss';
+@import '../component/welcom/welcomadm.scss';
 @import '../component/productmanagment/productsmng.scss';
+@import '../component/productid/productId.scss';
+@import '../component/modify/modify.scss';
 
 *{
     font-family: 'Roboto', sans-serif;
