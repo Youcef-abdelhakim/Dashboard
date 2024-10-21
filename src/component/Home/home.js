@@ -24,9 +24,10 @@ const Home = ({categories, perfumes}) => {
                             <div className="cattitle">
                                 <h2>{cat}</h2>
                             </div>
+                            
                             <div className="prfs">
                                 {perfumes.filter(prf =>prf.category === cat).map(prf =>(
-                                    <Product key={`${cat}_${prf.name}`} perfume= {prf}/>
+                                    <Product key={`${cat}_${prf.name}`} perfume= {prf} className="product"/>
                                 ))}
                             </div>
                         </div>
