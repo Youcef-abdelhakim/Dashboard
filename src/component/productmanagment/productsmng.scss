@@ -51,12 +51,15 @@
     flex: 1;
 }
 
-.form input {
+.form input, .form select, .form option{
     flex: 1;
     height: 45px;
     border-radius: 5px;
     border: 1px solid black;
 }
+
+
+
 .button{
     padding: 1%;
     font-weight: map-get($fonweight, ultra-max );

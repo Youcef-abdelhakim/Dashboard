@@ -56,7 +56,7 @@ function App() {
       <Routes>
         <Route path='/' element = {<Welcomadmin/>}>
         <Route index element = {<Home categories = {categories} perfumes = {perfumes}/>}/>
-        <Route path='/prduct-management' element ={<Productsmng/>} />
+        <Route path='/prduct-management' element ={<Productsmng categories = {categories}/>} />
         <Route path='/modify' element ={<Modify/>}/>
         </Route>
       </Routes>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-const Productsmng = () => {
-
+const Productsmng = ({categories}) => {
+    
     const [category, setCategory ] = useState ("");
     const [product, setProduct] = useState ({});
     const [image, setImage] = useState(null);
@@ -95,7 +95,12 @@ const Productsmng = () => {
 
                     <span>
                         <label htmlFor="category">Category</label>
-                        <input type="text" placeholder="Category" id="category" name="category" onChange={handleGetproductinfos}/>
+                        {/* <input type="text" placeholder="Category" id="category" name="category" onChange={handleGetproductinfos}/> */}
+                        <select id="category" name="category" onChange={handleGetproductinfos}>
+                            {categories.map((cat, index) =>(
+                                <option key={index} value={cat}>{cat}</option>
+                            ))}
+                        </select>
                     </span>
 
                    <span>
